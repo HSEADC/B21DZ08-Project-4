@@ -12,26 +12,15 @@ body {
   font-weight: 400;
 }
 
-.images {
+header {
+  position: absolute;
+  width: 100%;
+  justify-content: space-around;
+  top: 0;
+
   display: flex;
-
-  * {
-    width: 24px;
-    height: 24px;
-    margin: 0 10px;
-  }
-
-  .image {
-    &#bgPNG {
-      background-image: url('images/image.png');
-    }
-
-    &#bgJPG {
-      background-image: url('images/image.jpg');
-    }
-
-    &#bgSVG {
-      background-image: url('images/image.svg');
-    }
+  flex-direction: row;
+  a {
+    display: block;
   }
 }

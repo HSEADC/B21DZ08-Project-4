@@ -1,12 +1,9 @@
 {
-  "name": "static-site-boilerplate",
+  "name": "tarot",
   "version": "1.0.0",
-  "author": "Zakhar Day",
+  "author": "pupuni",
   "license": "MIT",
-  "repository": {
-    "type": "git",
-    "url": "git+https:///github.com/ZakharDay/static-site-boilerplate"
-  },
+  "repository": "git+https:///github.com/ZakharDay/static-site-boilerplate",
   "bugs": {
     "url": "https://github.com/ZakharDay/static-site-boilerplate/issues"
   },
@@ -42,5 +39,6 @@
   "dependencies": {
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
-  }
+  },
+  "main": "index.js"
 }

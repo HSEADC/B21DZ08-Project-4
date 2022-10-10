@@ -92,6 +92,18 @@ module.exports = {
       filename: './pages/page.html',
       chunks: ['page']
     }),
+    new HtmlWebpackPlugin({
+      template: './src/pages/cardoftheday.html',
+      filename: './pages/cardoftheday.html'
+    }),
+    new HtmlWebpackPlugin({
+      template: './src/pages/pogadat.html',
+      filename: './pages/pogadat.html'
+    }),
+    new HtmlWebpackPlugin({
+      template: './src/pages/readings.html',
+      filename: './pages/readings.html'
+    }),
 
     // Partials
     new HtmlWebpackPartialsPlugin([
