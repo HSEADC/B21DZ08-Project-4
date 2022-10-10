@@ -97,8 +97,13 @@ module.exports = {
       filename: './pages/cardoftheday.html'
     }),
     new HtmlWebpackPlugin({
+<<<<<<< HEAD
       template: './src/pages/pogadat.html',
       filename: './pages/pogadat.html'
+=======
+      template: './src/pages/fortune.html',
+      filename: './pages/fortune.html'
+>>>>>>> main
     }),
     new HtmlWebpackPlugin({
       template: './src/pages/readings.html',
